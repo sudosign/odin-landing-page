@@ -69,7 +69,6 @@ button{
     background-color:#3882F6;
     border-radius: 5px;
     color:#E5E7Eb
-    
 }
 
 .front .image-container{
@@ -78,4 +77,90 @@ button{
     align-items: center;
     justify-content: center;
     flex: 1;
+}
+
+.gallery{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:50px;
+    gap:50px;
+}
+
+.cards{
+    display:flex;
+    justify-content: center;
+    gap:50px;
+}
+
+.cards .card-container{
+    font-size:18px;     
+    color:#1F2937;
+    font-weight:300;
+    text-wrap: wrap;
+    flex: 0 0 10px;
+    text-align:center
+}
+
+.card{
+    width:200px;
+    height:200px;
+    border: 4px;
+    border-radius: 20px;
+    color: rgb(103, 147, 241);
+    border-style: solid;
+    margin: 8px;
+}
+
+.quote-container{
+    background-color:#E5E7Eb;
+    display:flex;
+    padding: 150px 500px;
+    flex-direction: column;
+    gap:16px;
+}
+
+.quote{
+    font-size:36px;
+    color:#1F2937;
+    font-style:italic;
+}
+
+.quote-author{
+    text-align: end;
+    font-weight:900;
+}
+
+.advertisement-section{padding:100px 200px;}
+
+.advertisement-container{
+    background-color: #3882F6;
+    display:flex;
+    padding: 50px 100px;
+    border-radius: 4px;
+    justify-content: space-between;
+    color:#E5E7Eb;
+    font-size:24px;
+    font-weight: 900;
+}
+
+.advertisement-text p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.advertisement-button{
+    border: 2px solid white;
+}
+
+.footer{
+    background-color: #1F2937;
+    color:#E5E7Eb;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
 }
